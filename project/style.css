@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: #061C1F;
+    
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    /* border: 1px solid white; */
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text{
+    width: 50%;
+    margin-bottom: 4em;
+
+}
+.gallery .text p{
+    font-weight: 600;
+    color: #30A5B5;
+    font-size: 4em;
+    margin-top: 45px;
+    border-bottom: 2px solid #30A5B5;
+}
+span{
+    font-weight: 200;
+}
+.line{
+    border-bottom: 2px solid #30A5B5;
+    width: 1040px;
+    padding-top: 16px;
+    margin-bottom: 4em;
+    text-align: center;
+    
+}
+.gallery .image-gallery{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+
+
+    
+}
+.gallery .image-gallery .col{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+.gallery .image-gallery .col img{
+    width: 100%;
+    padding-bottom: 20px;
+}
+/*------------------RESPONSIVE DESIGN------------------*/
