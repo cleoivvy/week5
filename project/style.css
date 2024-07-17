@@ -62,5 +62,12 @@ span{
 .gallery .image-gallery .col img{
     width: 100%;
     padding-bottom: 20px;
+    transition:transform 1s ease;
+    opacity:0.7;
+}
+.gallery .image-gallery .col img:hover{
+    transform: scale(1.1);
+    opacity: 1;
+    transform: 1s ease;
 }
 /*------------------RESPONSIVE DESIGN------------------*/
