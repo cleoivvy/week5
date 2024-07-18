@@ -85,3 +85,49 @@ span{
 
 
 /*------------------RESPONSIVE DESIGN------------------*/
+@media screen and (max-width: 880px) {
+
+    .gallery .image-gallery {
+        flex-direction: column;
+
+    }
+
+    .gallery .image-gallery .col {
+        width: 100%;
+        flex-direction: row;
+        gap: 20px;
+        padding: 0 20px
+    }
+
+    .text {
+        width: 70%;
+    }
+    
+    .gallery .text p {
+        font-size: 2.5em;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+
+    .gallery .image-gallery {
+        flex-direction: column;
+
+    }
+
+    .gallery .image-gallery .col {
+        width: 100%;
+        flex-direction: column;
+        gap: 1px;
+    }
+
+    .text {
+        width: 80%;
+    }
+    
+    .gallery .text p {
+        font-size: 1.5em;
+    }
+    
+}
